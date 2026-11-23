@@ -8,22 +8,22 @@ class Config:
         self.API_ID = int(getenv("API_ID", 32076000))
         self.API_HASH = getenv("API_HASH", "22adb8c3d3f905d09fe41cf4ae805b71")
 
-        self.BOT_TOKEN = getenv("BOT_TOKEN", "9173764504:AAF2AB3OWYtJ_uGDbGz-rWaXFObUh-RQPUU")
-        self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://public:yash@cluster0.uchqjbz.mongodb.net/")
+        self.BOT_TOKEN = getenv("BOT_TOKEN", "9160938427:AAGrX0KSGSThbx3wh1ibGHUrFVCS6CjvavY")
+        self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority")
 
-        self.LOGGER_ID = int(getenv("LOGGER_ID", -1004423141244))
+        self.LOGGER_ID = int(getenv("LOGGER_ID", -1003150808065))
         self.OWNER_ID = int(getenv("OWNER_ID", 8516736963))
 
         self.DURATION_LIMIT = int(getenv("DURATION_LIMIT", 60)) * 60
         self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 20))
         self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 20))
 
-        self.SESSION1 = getenv("SESSION", "AQFRwgAAUDkKkayYqW6_RXJ-NRuaBq2HwlPqevPPViMIVKC-vGyoaWkE5kh0LPfNvHrEiijlRZwFYPv-RYZRy8td9K60BN75atU1mkD-GpoQI0SWyvwPq3dEyNCe6eMuoErfDQPjinfUk1sC5Q7IiXrjGeKVQ0NbZw4sk4wPKyHgPw7Q2JFxabRVOCjp5ORjQ68b-Im7wWsKOjpCXSQvSXr55C756WUZCvT59G9PbMsLMj64BRDPjbg5PlVmn4p0-n4catO9A-x2CtJWOt6AHLK45tNO6ultHkx6JhNLeJFliQe2x_83l-SF1sT4AMaq_dYwcuz8mywlsOPAF6Nb_FOnMe2RtgAAAAIV40B-AA")
+        self.SESSION1 = getenv("SESSION", "BAIgI4sAqBGlPQAYu39MR0OcmFCRj-x9i9ggs7IxaEnDi4tco-A-oUW8aSC7hLXkaqEAtp88RaxlANlEFBKFqoUTY2WO6hkwF1AegXtaKqVJl9MIi-k72bSG4GDT1dKwuaexTJ4sb6-icn3HT0uAfDVZQTQKcT9lyYTg2TMoZXAO3A2Z_3mCtHXjZBerUglQdJxJR9FchqcOA-DvFklYyqe08k3EHL0FROtnLFgCmmauPXm5Uo3WHKGF4M4Gkcl1mbuvhD1N1ycDCcWXZx5c51lh42rEukTQKA2S6QMARWxXNnNCQPNk5gVHKJDCZrtnsJl9Zg1WABQs1D-BzYMMepVKfrbpgQAAAAIJ678XAA")
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
-        
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mizuu_update")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/vistoriyachat")
+
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Senpai_Updates")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/THE_DRAGON_SUPPORT")
 
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "true"
         self.AUTO_END: bool = getenv("AUTO_END", "False").lower() == "true"
@@ -38,8 +38,8 @@ class Config:
             if url and "batbin.me" in url
         ]
         self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://te.legra.ph/file/3e40a408286d4eda24191.jpg")
-        self.PING_IMG = getenv("PING_IMG", "https://files.catbox.moe/0l2i4n.jpg")
-        self.START_IMG = getenv("START_IMG", "https://files.catbox.moe/wiexc3.jpg")
+        self.PING_IMG = getenv("PING_IMG", "https://files.catbox.moe/z4tco8.jpg")
+        self.START_IMG = getenv("START_IMG", "https://files.catbox.moe/unu7ar.jpg")
 
     def check(self):
         missing = [
