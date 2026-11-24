@@ -8,7 +8,7 @@ class Config:
         self.API_ID = int(getenv("API_ID", 32076000))
         self.API_HASH = getenv("API_HASH", "22adb8c3d3f905d09fe41cf4ae805b71")
 
-        self.BOT_TOKEN = getenv("BOT_TOKEN", "9160938427:AAGrX0KSGSThbx3wh1ibGHUrFVCS6CjvavY")
+        self.BOT_TOKEN = getenv("BOT_TOKEN", "9160938427:AAH512Br8rY6dPqbyUQ545874f33MvlGXsw")
         self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority")
 
         self.LOGGER_ID = int(getenv("LOGGER_ID", -1003150808065))
